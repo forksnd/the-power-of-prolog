@@ -23,7 +23,7 @@ This book is *self-hosting*: It includes an HTTP&nbsp;server that lets
 you browse most of the content locally. When you access files that are
 *not* locally available, it redirects to their online&nbsp;versions.
 
-You need [Scryer&nbsp;Prolog](https://github.com/mthom/scryer-prolog)
+You need [Scryer&nbsp;Prolog](https://codeberg.org/mthom/scryer-prolog)
 to run it. For example, to spawn the server on port&nbsp;6012, use:
 
     $ scryer-prolog -g "server(6012)" server.pl
@@ -80,7 +80,7 @@ set to the value&nbsp;`chars` so that strings in double-quotes are
 interpreted as lists of *characters*. This was the case in the
 original Prolog implementation, Marseille Prolog, and is already the
 default value in the four newest Prolog implementations,
-[Scryer&nbsp;Prolog](https://github.com/mthom/scryer-prolog),
+[Scryer&nbsp;Prolog](https://codeberg.org/mthom/scryer-prolog),
 [Tau&nbsp;Prolog](https://github.com/tau-prolog/tau-prolog),
 [Trealla&nbsp;Prolog](https://github.com/trealla-prolog/trealla) and
 [ichiban/prolog](https://github.com/ichiban/prolog). It is to be hoped
